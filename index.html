@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Sodiq school</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/flexboxgrid.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="assets/fonts/Pragmatica Slab Serif/stylesheet.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="./assets/images/sodiq.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+  <section id="hero">
+    <header class="site-header">
+      <div class="container">
+        <div class="row header-row">
+          <div class="logo">
+            <a href="#">
+              <img src="assets/images/logo-dark.png" alt="logo"></a>
+          </div>
+          <div class="call row">
+            <div class="tell">
+              <a class="tell-title" href="tel:+998788888080">+998 78 888 80 80</a>
+              <p class="tell-desc">Mon-Fri | 9:00 -18:00</p>
+            </div>
+            <ul class="socal-list">
+              <li class="social-item">
+                <a href="https://www.instagram.com/sodiq_school"><img src="assets/school-icon/svg/Instagram.svg"
+                    alt="instagram"></a>
+              </li>
+              <li class="social-item">
+                <a href="https://t.me/sodiq_school"><img src="assets/school-icon/svg/telegram-fill.svg"
+                    alt="instagram"></a>
+              </li>
+              <li class="social-item">
+                <a href="https://www.facebook.com/sodiq.school/"><i class='bx bxl-facebook'
+                  style="font-size: 25px;"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-btn" id="menuBtn">
+            <a href="#"><i class='bx bx-menu'></i></a>
+          </div>
+        </div>
+      </div>
+      <div id="openMenu" class="modal">
+        <div class="modal-content">
+          <div class="menu-mb">
+            <div class="container menu-row">
+              <div>
+                <div class="appbar row">
+                  <div class="logo">
+                    <img src="./assets/images/logo-dark.png" alt="logo">
+                  </div>
+                  <div class="nav-btn" id="nclose">
+                    <a class="menu-btn-mb" href="#"><i class='bx bx-x'></i></a>
+                  </div>
+                </div>
+                <ul class="header-list mb">
+                  <li class="header-item" onclick="modalCloseLink()">
+                    <a class="header-link" href="#about">
+                      Biz haqimizda
+                    </a>
+                  </li>
+                  <li class="header-item" onclick="modalCloseLink()">
+                    <a class="header-link" href="#team">
+                      Jamoa
+                    </a>
+                  </li>
+                  <li class="header-item" onclick="modalCloseLink()">
+                    <a class="header-link" href="#choose">
+                      Imkoniyatlar
+                    </a>
+                  </li>
+                  <li class="header-item">
+                    <a class="header-link" href="tel:+998788888080">
+                      Aloqa
+                    </a>
+                  </li>
+                  <li class="header-item">
+                    <a class="header-link" href="http://sodiq.schoolsystem.uz/">
+                      Shaxsiy kabinet
+                    </a>
+                  </li>
+                  <li class="header-item">
+                    <a class="header-link" href="#section1">
+                      Qoshimcha savollar
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <ul class="menu-list btns-mb">
+                <li class="menu-item call-menu">
+                  <h3>
+                    <a class="number" href="tel:+998788888080">
+                      +998 78 888 80 80
+                    </a>
+                  </h3>
+                  <p class="work-time">Mon-Fri | 9:00 -18:00</p>
+                </li>
+                <li>
+                  <ul class="row">
+                    <li class="menu-item icons">
+                      <a href="https://www.instagram.com/sodiq_school/" target="blank">
+                        <img src="assets/school-icon/svg/Instagram.svg" alt="icon" class="icon" />
+                      </a>
+                    </li>
+                    <li class="menu-item icons">
+                      <a href="https://t.me/sodiq_school" target="blank">
+                        <img src="assets/school-icon/svg/telegram-fill.svg" alt="icon" class="icon" />
+                      </a>
+                    </li>
+                    <li class="menu-item icons">
+                      <a href="https://www.facebook.com/sodiq.school/"><i class='bx bxl-facebook'
+                          style="font-size: 25px;"></i></a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+    <nav class="site-nav">
+      <div class="container">
+        <div class="nav-row row">
+          <ul class="nav-list row">
+            <li class="nav-item"><a class="nav-link" href="#about">Biz haqimizda</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Jamoa</a></li>
+            <li class="nav-item"><a class="nav-link" href="#top-score">Top Students</a></li>
+            <li class="nav-item"><a class="nav-link" href="#choose">Imkoniyatlar</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Aloqa</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://sodiq.schoolsystem.uz/">Shaxsiy kabinet</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://sodiqschool.uz/register">Qoshimcha savollar</a></li>
+          </ul>
+          <a class="header-buttom" href="tel:+998788888080">Murojaat qilish</a>
+        </div>
+      </div>
+
+    </nav>
+    <div class="big-sliderbar">
+      <div class="sliderbar">
+        <div class="container sliderbar-row">
+          <div class="backdroup"></div>
+          <div class="sliderbar-content">
+            <h2 class="slider-title">
+              Biz ilmga sodiqmiz, biz sizga sodiqmiz.
+            </h2>
+            <p class="slider-text">
+              Sodiq school maktabi o’z o’quvchilarini dunyoning eng nufuzli universitetlariga tayyorlaydi va ularga
+              jahon
+              standartlariga mos ravishda sifatli ta’lim beradi.
+            </p>
+            <a class="slider-btn" href="https://sodiqschool.uz/register">Registration</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="sliderbar two">
+        <div class="backdroup"></div>
+        <div class="container sliderbar-row">
+          <div class="sliderbar-content">
+            <h2 class="slider-title">
+              Biz ilmga sodiqmiz, biz sizga sodiqmiz.
+            </h2>
+            <p class="slider-text">
+              Sodiq school maktabi o’z o’quvchilarini dunyoning eng nufuzli universitetlariga tayyorlaydi va ularga
+              jahon
+              standartlariga mos ravishda sifatli ta’lim beradi.
+            </p>
+            <a class="slider-btn" href="https://sodiqschool.uz/register">Registration</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="sliderbar ones">
+        <div class="backdroup"></div>
+        <div class="container sliderbar-row">
+          <div class="sliderbar-content">
+            <h2 class="slider-title">
+              Biz ilmga sodiqmiz, biz sizga sodiqmiz.
+            </h2>
+            <p class="slider-text">
+              Sodiq school maktabi o’z o’quvchilarini dunyoning eng nufuzli universitetlariga tayyorlaydi va ularga
+              jahon
+              standartlariga mos ravishda sifatli ta’lim beradi.
+            </p>
+            <a class="slider-btn" href="https://sodiqschool.uz/register">Registration</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container-about">
+      <div class="about-content row">
+        <div class="about-pic col-xs-12 col-md-7 col-lg-8">
+          <img src="https://sodiqschool.uz/255f17c07dac8c1ea578.png" alt="about">
+
+          <div class="play">
+            <div id="youtube-modal">
+              <iframe id="youtube-player" width="560" height="315" src="https://www.youtube.com/embed/RWSsYSIW7nY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; encrypted-media" allowfullscreen></iframe>
+            </div>
+
+            <button class="pla-btn"  id="open-modalYoutube"><i class='bx bx-play'></i></button>
+          </div>
+        </div>
+        <div class="about-one col-xs-12 col-md-5 col-lg-4">
+          <div id="aboutText"  class="about-text1">
+            <h3 class="about-title">
+              BIZNING MAKTABIMIZ.
+            </h3>
+            <p class="about-text">
+              Sodiq school maktabi 2022-yilda tashkil topgan bo’lib, o'z faoliyatini boshlaganiga ko’p bo’lmagan
+              bo’lsada,
+              shu vaqtga qadar ko’plab yutuqlarga erishib kelmoqda! Masalan ushbu yildagi 20 dan ortiq bitiruvchilarimiz
+              dunyoning nufuzli universitetlariga kirgan bo’lsa, ulardan 10 dan ortig’i bir qancha Grant asosida qabul
+              qilindi.
+              Maktabimizning asosiy maqsadi ham nafaqat yurtimizdagi oliygohlarga, balki dunyoning nufuzli
+              universitetlariga
+              ham o'qishga kira olishlarini ta'minlashdan iborat. Bu uchun biz o’quvchilarimizni xalqaro toifadagi
+              olimpiada
+              va imtihonlarga tayyorlab, ularni yetarlicha natijaga erishishlari uchun barcha sharoit va yordanmi
+              bermoqdamiz.
+              Shu bilan birgalikda Sodiq School maktabimizda o’quvchilarimizni kelajakda shaxsiy rivojlanishlari uchun
+              kerakli bo’lgan darslar ham e’tibordan chetda qolmagan.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="school-res">
+        <ul class="res-list row">
+          <li class="res-item ">
+            <h4 class="res-title">78+</h4>
+            <p class="res-desc">Teacher</p>
+            <p class="res-text">We’ve helped build over 400 projects with great companies.</p>
+          </li>
+          <li class="res-item">
+            <h4 class="res-title">492+</h4>
+            <p class="res-desc">Students</p>
+            <p class="res-text">We’ve helped build over 400 projects with great companies.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="team">
+    <div class="container">
+      <div class="row team-row row">
+        <div class="desc col-xs-12 col-lg-5">
+          <h3 class="team-title">BIZNING USTOZLAR</h3>
+          <p class="team-text">
+            Each year, eight outstanding Ph.D. candidates are chosen to receive personalized mentoring and coaching
+            designed to enhance their presentation skills. The program culminates in a symposium at Sanders Theatre,
+            where
+            these </p>
+          <p class="team-text"> Click on each image or explore the full gallery using the arrows </p>
+        </div>
+        <div class="autoplay col-xs-12 col-lg-7 row" id="teachers"></div>
+
+      </div>
+
+    </div>
+    <div class="modalfather">
+      <div class="modalTeacher" id="teachermodal"> </div>
+    </div>
+
+  </section>
+
+  <section id="top-score">
+    <div class="score-content">
+      <div class="container-about">
+        <h2 class="score-h2">TOP SCORE</h2>
+        <!-- score-silder -->
+        <div class="row score-row" id="score">
+          <div class="slscore"></div>
+          <div class="slscore"></div>
+          <div class="slscore"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="choose">
+    <div class="container">
+      <h2 class="choose-title">NEGA SODIQ SCHOOL`NI TANLASHINGIZ KERAK?</h2>
+      <ul class="choose-list row">
+        <li class="choose-item col-xs-12 col-sm-6 col-md-4">
+          <div class="card_icon">
+            <img src="./assets/icons/icon1.svg" alt="icon">
+          </div>
+          <h4 class="choose-tit">Dunyoning top universitetlariga tayyorlash</h4>
+          <p class="choose-text">Biz o’z o’quvchilarimizni dunyoning nufuzli universitetlariga tayyorlaymiz va bu
+            bizning asosiy maqsadimiz!</p>
+        </li>
+        <li class="choose-item col-xs-12 col-sm-6 col-md-4">
+          <div class="card_icon">
+            <img src="./assets/icons/icon2.svg" alt="icon">
+          </div>
+          <h4 class="choose-tit">Xalqaro saviyadagi ta’lim</h4>
+          <p class="choose-text">Maktabimizdagi ta`lim tizimi va o’tiladigan fanlar ro`yxati jahon standartlari asosida ishlab chiqilgan.</p>
+        </li>
+
+        <li class="choose-item col-xs-12 col-sm-6 col-md-4">
+          <div class="card_icon">
+            <img src="./assets/icons/icon3.svg" alt="icon">
+          </div>
+          <h4 class="choose-tit">O’z sohasida haqiqiy professional o’qituvchilar</h4>
+          <p class="choose-text">Maktabimizda faoliyat olib boradigan har bir o’qituvchi o’z sohasida kuchli va yurtimizdagi TOP kadrlar qatorida turadi. Bu esa o’quvchilarimizni maksimal darajada sifatli ta’lim olishlarini ta’minlaydi.</p>
+        </li>
+        <li class="choose-item col-xs-12 col-sm-6 col-md-4">
+          <div class="card_icon">
+            <img src="./assets/icons/icon4.svg" alt="icon">
+          </div>
+          <h4 class="choose-tit">Bilimga chanqoq o’quvchilarning qaynoq atmosferasi</h4>
+          <p class="choose-text">Maktabimizda har bir o`quvchi o`qishga kuchli imtihon tizimi asosida qabul qilinadi va bu bir xil maqsadga ega yoshlar bir joyda to`planishiga zamin yaratadi. Aynan shu omil o`quvchilarimiz ruhiyati va ularning yuksak maqsadlar tomon harakat qilishida muhim rol o`ynaydi.</p>
+        </li>
+        <li class="choose-item col-xs-12 col-sm-6 col-md-4">
+          <div class="card_icon">
+            <img src="./assets/icons/icon5.svg" alt="icon">
+          </div>
+          <h4 class="choose-tit">Studend Union</h4>
+          <p class="choose-text">Students Union talabalar hamjamiyati, maktabimiz rahbariyati va School Consular tomonidan tashkil etilgan bo`lib, unda o`quvchilar o`zlari tomonidan asos solingan har qanday turdagi klublarga a`zo bo`lishlari va doimiy shu yo`nalishda yangiliklarni almashib borishlari mumkin.</p>
+        </li>
+
+        <li class="choose-item col-xs-12 col-sm-6 col-md-4">
+          <div class="card_icon">
+            <img src="./assets/icons/icon6.svg" alt="icon">
+          </div>
+          <h4 class="choose-tit">School consular</h4>
+          <p class="choose-text">Maktabimizda tashkil etilgan bu bo’lim - o’quvchilarni dunyoning nufuzli universitetlariga hujjat topshirishiga va o’quvchilarning bu borada muammolarini yechishga yordam beradi. Bu bo’lim o’quvchilar va maktab rahbariyati o’rtasidagi ko’prik vazifasini o’taydi.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- <section id="footer">
+    <div class="container">
+      <div class="row footer-row">
+        <div class="col-xs-12 col-md-4 one">
+          <img class="logo-footer" src="assets/images/footerLogo.png" alt="logo">
+          <p class="footer-text">Create amazing digital experiences that make the world a happier place.</p>
+        </div>
+        <div class="col-xs-6 col-md-2 footer-lists">
+          <h3 class="footer-list-title">Product</h3>
+          <ul class="footer-list">
+            <li class="footer-item">Functions</li>
+            <li class="footer-item">Solutions</li>
+            <li class="footer-item">Costs</li>
+            <li class="footer-item">Releases</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-md-2 footer-lists">
+          <h3 class="footer-list-title">Resources</h3>
+          <ul class="footer-list">
+            <li class="footer-item">Blog</li>
+            <li class="footer-item">News</li>
+            <li class="footer-item">Events</li>
+            <li class="footer-item">Help Center</li>
+            <li class="footer-item">Textbooks</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-md-2 footer-lists">
+          <h3 class="footer-list-title">Company</h3>
+          <ul class="footer-list">
+            <li class="footer-item">About us</li>
+            <li class="footer-item">Carier</li>
+            <li class="footer-item">Press</li>
+            <li class="footer-item">News</li>
+            <li class="footer-item">Gallery</li>
+            <li class="footer-item">Contact</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-md-2 footer-lists">
+          <h3 class="footer-list-title">Legal</h3>
+          <ul class="footer-list">
+            <li class="footer-item">Terms</li>
+            <li class="footer-item">Confidentiality</li>
+            <li class="footer-item">Cookies</li>
+            <li class="footer-item">Licenses</li>
+            <li class="footer-item">Settings</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="bottom">
+    <h2 class="none">Hello</h2>
+    <div class="container">
+      <div class="bottom-row row">
+        <!-- <p class="bottom-text">© All rights reserved.</p> -->
+        <div class="logoOne">
+          <img class="logo-footer" src="assets/images/footerLogo.png" alt="logo">
+        </div>
+          <!-- <p class="footer-text">Create amazing digital experiences that make the world a happier place.</p> -->
+        <ul class="bottom-list">
+          <li class="bottom-item"><a href="https://www.facebook.com/sodiq.school/"><i
+                class='bx bxl-facebook-square'></i></a></li>
+          <li class="bottom-item"><a href="https://www.instagram.com/sodiq_school/"><i class='bx bxl-instagram'></i></a>
+          </li>
+          <li class="bottom-item"><a href="https://t.me/sodiq_school "><i class='bx bxl-telegram'></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+  <script src="
+  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+  "></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+
+
+    // Initialize Slick JS
+    $(document).ready(function () {
+      $('.big-sliderbar').slick({
+      dots: true,
+      infinite: true,
+      speed: 1000,
+      slidesToShow: 1,
+      adaptiveHeight: true,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      responsive: [
+        {
+          breakpoint: 800,
+          settings: {
+            dots: false,
+            autoplay: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+    });
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Pragmatica Slabserif';
+    src: url('PragmaticaSlab-ExtraLight.eot');
+    src: local('Pragmatica Slab ExtraLight'), local('PragmaticaSlab-ExtraLight'),
+        url('PragmaticaSlab-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaSlab-ExtraLight.woff2') format('woff2'),
+        url('PragmaticaSlab-ExtraLight.woff') format('woff'),
+        url('PragmaticaSlab-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Slabserif';
+    src: url('PragmaticaSlab-ExtraBold.eot');
+    src: local('Pragmatica Slab ExtraBold'), local('PragmaticaSlab-ExtraBold'),
+        url('PragmaticaSlab-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaSlab-ExtraBold.woff2') format('woff2'),
+        url('PragmaticaSlab-ExtraBold.woff') format('woff'),
+        url('PragmaticaSlab-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Slabserif';
+    src: url('PragmaticaSlab-Book.eot');
+    src: local('Pragmatica Slab Book'), local('PragmaticaSlab-Book'),
+        url('PragmaticaSlab-Book.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaSlab-Book.woff2') format('woff2'),
+        url('PragmaticaSlab-Book.woff') format('woff'),
+        url('PragmaticaSlab-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Slabserif';
+    src: url('PragmaticaSlab-Light.eot');
+    src: local('Pragmatica Slab Light'), local('PragmaticaSlab-Light'),
+        url('PragmaticaSlab-Light.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaSlab-Light.woff2') format('woff2'),
+        url('PragmaticaSlab-Light.woff') format('woff'),
+        url('PragmaticaSlab-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Slabserif';
+    src: url('PragmaticaSlab-Medium.eot');
+    src: local('Pragmatica Slab Medium'), local('PragmaticaSlab-Medium'),
+        url('PragmaticaSlab-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaSlab-Medium.woff2') format('woff2'),
+        url('PragmaticaSlab-Medium.woff') format('woff'),
+        url('PragmaticaSlab-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica Slabserif';
+    src: url('PragmaticaSlab-Bold.eot');
+    src: local('Pragmatica Slab Bold'), local('PragmaticaSlab-Bold'),
+        url('PragmaticaSlab-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PragmaticaSlab-Bold.woff2') format('woff2'),
+        url('PragmaticaSlab-Bold.woff') format('woff'),
+        url('PragmaticaSlab-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: url('Pragmatica.woff2') format('woff2'),
+        url('Pragmatica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
